@@ -1,7 +1,7 @@
 p = (1,2,3)
 
 # unpacking using variables
-[x, y, z] = p
+[x, y, z] = p # x, y, z can be given as list,tuple or just simple
 print(x, y, z)
 
 # unpacking specific value is done by using index
