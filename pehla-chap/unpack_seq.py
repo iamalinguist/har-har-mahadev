@@ -1,8 +1,13 @@
 p = (1,2,3)
 
 # unpacking using variables
-[x, y, z] = p # x, y, z can be given as list,tuple or just simple
+# following x, y, z can be given as list [x,y,z], tuple(x,y,z) or just simple x,y,z
+x, y, z = p 
 print(x, y, z)
+
+# throwing some variables
+_, y, _ = p
+print("only printing one value", y)
 
 # unpacking specific value is done by using index
 a = p[1]
